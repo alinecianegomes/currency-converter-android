@@ -10,14 +10,6 @@ Um aplicativo moderno de conversão de moedas para Android, desenvolvido com as 
 
 </div>
 
-## 📱 Screenshots
-
-<div align="center">
-  <img src="screenshots/conversion-screen.png" width="200" alt="Tela de Conversão">
-  <img src="screenshots/history-screen.png" width="200" alt="Tela de Histórico">
-  <img src="screenshots/dark-mode.png" width="200" alt="Modo Escuro">
-</div>
-
 ## ✨ Funcionalidades
 
 - **💰 Conversão em Tempo Real** - Suporte a múltiplas moedas
