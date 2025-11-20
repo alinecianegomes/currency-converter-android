@@ -52,3 +52,23 @@ Um aplicativo moderno de conversão de moedas para Android, desenvolvido com as 
 - 🔍 **OkHttp Logging Interceptor** - Debug de requisições
 
 ## 🏗 Estrutura do Projeto
+app/
+├── data/
+│ ├── local/ # Room Database
+│ │ ├── entity/ # Entidades do banco
+│ │ ├── dao/ # Data Access Objects
+│ │ └── CurrencyDatabase.kt
+│ ├── remote/ # API Remote
+│ │ ├── api/ # Interface Retrofit
+│ │ └── RetrofitClient.kt
+│ ├── repository/ # Repositórios unificados
+│ └── models/ # Modelos de dados
+├── di/ # Injeção de dependência (Hilt)
+├── ui/
+│ ├── screens/ # Telas Composable
+│ ├── viewmodel/ # ViewModels
+│ ├── state/ # Estados da UI
+│ ├── events/ # Eventos one-shot
+│ └── components/ # Componentes reutilizáveis
+├── navigation/ # Navegação
+└── utils/ # Utilitários e extensões
